@@ -1,0 +1,104 @@
+:root{
+   --background-color: rgb(207, 222, 242);
+   --primary-color: #0360D9;
+}
+body{
+    background-color: var(--background-color);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3rem;
+}
+.mid{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: #0D2B46;
+}
+.left{
+    font-size: 1rem;
+}
+.left span{
+    color: blue;
+}
+.right button {
+    border-radius: 1.3rem;
+    border: 1px var(--primary-color) solid;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.left-btn{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+.right-btn{
+    background-color: var(--primary-color);
+    color: white;
+}
+li:first-child {
+  color: var(--primary-color);
+  border-bottom: 1px var(--primary-color) solid;
+}
+.first-section{
+    position: relative;
+    height: 100vh;
+    display: flex;
+
+}
+.first-section .right{
+    display: flex;
+}
+.first-section .right img   {
+    position: absolute;
+
+}
+.first-section .left{
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+.doctor-img{
+    position: absolute;
+    margin-left: 10rem;
+    top: 0.8rem;
+    height: 75%;
+    
+}
+.half-circle{
+    position: absolute;
+    margin-left: 15rem; ;
+    top: 15rem;
+    height:20rem;
+    width: 40rem;
+    z-index: -1 ;
+}
+.first-section .left h1{
+    font-size: 4rem;
+}
+.vector{
+    position: relative;
+    bottom: 3.2rem;
+}
+.first-section .left .lorem{
+    position: relative;
+    bottom:3.5rem ;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+    width: 590px;
+    height: 73px;
+    background-color: white;
+    border-radius: 4rem;
+    bottom: 1rem;
+}
+.doctor-search , .location-search{
+    display: flex;
+    align-items: center;
+}
